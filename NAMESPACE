@@ -2,7 +2,12 @@
 
 S3method("[",Dictionary)
 S3method("[<-",Dictionary)
+S3method(as.Dictionary,complex)
+S3method(as.Dictionary,data.frame)
+S3method(as.Dictionary,integer)
+S3method(as.Dictionary,list)
 S3method(as.Dictionary,matrix)
+S3method(as.Dictionary,numeric)
 S3method(as.Dictionary,xts)
 S3method(as.TypedDictionary,complex)
 S3method(as.TypedDictionary,data.frame)
