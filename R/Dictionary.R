@@ -54,7 +54,7 @@ Dictionary$set("public","initialize",
 Dictionary$set("public","getkeyclass",function(){
                  return(private$.keyclass)
                  })
-Dictionary$set("public","setkeyclass",function(class){
+Dictionary$set("public","setkeyclass",function(keyclass){
   checkmate::assertChoice(keyclass,c("numeric","Date"))
                  private$.keyclass <- keyclass
                })

@@ -1,12 +1,7 @@
 #' @include Dictionary.R
 
 #' @export
-TypedDictionary <- R6::R6Class("TypedDictionary",
-                               inherit = Dictionary,
-                               private=list(
-                                 .lst = NULL,
-                                 .keyclass = NULL
-                               ))
+TypedDictionary <- R6::R6Class("TypedDictionary", inherit = Dictionary)
 
 TypedDictionary$set("public","initialize",
                function(object=NULL,keys=NULL,values=NULL,keyclass=NULL,
