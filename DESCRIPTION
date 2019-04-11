@@ -1,0 +1,19 @@
+Package: dictionaryR6
+Title: A dictionary and typed dictionary class in R6
+Version: 0.0.0.9000
+Authors@R: person("Raphael", "Sonabend", email = "raphael.sonabend.15@ucl.ac.uk", role = c("aut", "cre"))
+Description: A dictionary for R built in R6 enabling method chaining, getters/setters and a familiar interface for OO programmers.
+Depends: R (>= 3.4.3)
+Imports: checkmate, R6, BBmisc, xts, R62S3
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Collate: 
+    'Dictionary.R'
+    'TypedDictionary.R'
+    'as.dictionary.R'
+    'as.typedDictionary.R'
+    'dictionaryAssign.R'
+    'helper_functions.R'
+    'zzz.R'
