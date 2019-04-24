@@ -64,7 +64,7 @@ Dictionary$set("public","getkeyclass",function(){
 Dictionary$set("public","setkeyclass",function(keyclass){
   checkmate::assertChoice(keyclass,c("numeric","Date"))
   private$.keyclass <- keyclass
-  inivisible(self)
+  invisible(self)
 })
 Dictionary$set("public","keys",function(){
   return(names(private$.lst))

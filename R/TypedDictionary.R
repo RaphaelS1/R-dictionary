@@ -141,7 +141,7 @@ TypedDictionary$set("public","summary",function(n=6L,full=FALSE,round=5){
     cat("Keys: \n",self$keys())
     cat("\nValues: \n",round(self$values(),round))
   } else
-    cat("Items: \n",self$strprint(n,round))
+    cat("Items: \n",self$strprint(n,round,TRUE))
   }
 })
 TypedDictionary$set("public","set",function(key,value){
